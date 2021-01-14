@@ -7,7 +7,7 @@ def fizzbuzz(num)
     puts "Buzz"
   elsif (num % 3 == 0) and (num %5 == 0)
     puts "FizzBuzz"
-  else num #not divisble by 3 or 5
+  elsif (num % 3 == !0) and (num % 5 == !0)
     puts "nil"
   end
 end
