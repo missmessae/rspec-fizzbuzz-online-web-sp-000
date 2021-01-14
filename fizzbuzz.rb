@@ -1,13 +1,13 @@
 # Don't forget! This file needs to be 'required' in its spec file
 # See README.md for instructions on how to do this
 def fizzbuzz(num)
-  if num #divisible by 3
+  if (num % 3 == 0) and (num % 5 == !0)
     puts "Fizz"
-  elsif num #divisible by 5
+  elsif (num % 5 == 0) and (num % 3 == !0)
     puts "Buzz"
-  elsif num #divisible by both 3 and 5
+  elsif (num % 3 == 0) and (num %5 == 0)
     puts "FizzBuzz"
-  elsif num #not divisble by 3 or 5
+  else num #not divisble by 3 or 5
     puts "nil"
   end
 end
