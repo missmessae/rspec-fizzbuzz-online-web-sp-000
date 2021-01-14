@@ -3,13 +3,10 @@
 def fizzbuzz(num)
   if num % 3 == 0
     puts "Fizz"
-  end
-  if num % 5 == 0
+  elsif num % 5 == 0
     puts "Buzz"
-  end
-  if num % 3 == 0 and num % 5 == 0
+  elsif num % 3 == 0 and num % 5 == 0
     puts "FizzBuzz"
-  end
   else num % 3 == !0 and num % 5 == !0
     puts "nil"
   end
